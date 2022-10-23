@@ -1,8 +1,9 @@
 body {
     margin: 0;
     height: 1000px;
-    background-color: blue;
+    background-color: rgb(5, 5, 70);
     font-family: '60s Scoreboard', sans-serif;
+
 }
 
 .container {
@@ -14,28 +15,42 @@ body {
 }
 
 .score-board {
-    
+
     color: red;
     font-size: 40px;
     display: flex;
-   justify-content: space-around;
-   margin-top: 0;
-   
-    
-    
+    justify-content: space-around;
+    margin-top: 0;
+
+
+
 }
+
 .score {
-    background-color: black;
+    background-color: rgb(11, 10, 27);
     padding: 10px 40px;
     width: 50px;
     height: 150px;
-    
-    
+    text-align: center;
+
+
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
-    
-    
+
+}
+
+#reset-btn {
+    background-color: rgb(3, 32, 65);
+    color: bisque;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 12px;
+
 }
